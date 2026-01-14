@@ -1,0 +1,40 @@
+
+location         = "centralus"
+resource_group_name = "ZENPEEARGDR"
+subnet_id = "/subscriptions/d4b3a18f-3efa-468e-8f52-0defd34c17bd/resourceGroups/zenpergnetp02/providers/Microsoft.Network/virtualNetworks/zenpevnnetp02/subnets/PaaSApp-Integration-Net-PRD"
+lz_subnet_id ="/subscriptions/3a07ea8c-0ac8-43d6-a21e-ed467d8ef56b/resourceGroups/zenlzrgnetp01/providers/Microsoft.Network/virtualNetworks/zenlzvnnetp01/subnets/Net-Trust" 
+lz_DR_subnet_id = "/subscriptions/3a07ea8c-0ac8-43d6-a21e-ed467d8ef56b/resourceGroups/zenlzrgnetdr01/providers/Microsoft.Network/virtualNetworks/zenlzvnnetdr01/subnets/Net-Trust"
+appservice_plan_name                = "ZENPEEAASPDR01"
+appservice_plan_resource_group_name = "ZENPEEARGDR"
+
+tags = {
+      
+location = "us-central"
+environment = "prd"
+app-name = "ZJAW"
+cost-center = ""
+organizational-owner = "PEEA"
+application-owner = "peeateam@zelis.com"
+engineering-owner = "dl-azure_support@zelis.com"
+deployment-date = "03/10/2023"
+data-classification = "internal"
+deployment-method = "IaC"
+iac-repo-id = ""
+latest-release-version = ""
+backup-policy = ""
+end-of-life = ""
+operating-system = ""
+project-id = ""
+shutdown-schedule = "None"
+    }
+db_enabled = "true"
+
+
+shared_key_vault_name = "ZENINFKVDR01"
+shared_key_vault_resource_group_name = "ZENEETDRRGP"
+wildcard_cert_name = "ExternalAppSvcZelisWC"
+custom_domain_verification_id = "20.84.141.5"
+zone_name = "zelis.com"
+application_name = "zenjapifadr01"
+record_type = "A"
+cert_enabled = "false"
