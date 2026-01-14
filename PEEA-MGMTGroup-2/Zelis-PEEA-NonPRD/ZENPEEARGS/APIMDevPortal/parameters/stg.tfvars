@@ -1,0 +1,49 @@
+# Naming and Tagging Vars
+location         = "eastus2"
+resource_group_name = "ZENPEEARGS"
+custom_domain_verification_id = "calm-tree-0f5ce8f0f.3.azurestaticapps.net"
+subnet_name = "PaaSApp-Integration-Net-STG-Static"
+virtual_network_name ="zenpevnnetd01"
+virtual_network_resource_group_name = "zenpergnetd01"
+subnet_id = "/subscriptions/5bf88ae2-570b-483c-95d4-018309ae1682/resourceGroups/zenpergnetd01/providers/Microsoft.Network/virtualNetworks/zenpevnnetd01/subnets/PaaSApp-Integration-Net-STG"
+lz_subnet_id ="/subscriptions/3a07ea8c-0ac8-43d6-a21e-ed467d8ef56b/resourceGroups/zenlzrgnetp01/providers/Microsoft.Network/virtualNetworks/zenlzvnnetp01/subnets/Net-Trust"
+lz_DR_subnet_id = "/subscriptions/3a07ea8c-0ac8-43d6-a21e-ed467d8ef56b/resourceGroups/zenlzrgnetdr01/providers/Microsoft.Network/virtualNetworks/zenlzvnnetdr01/subnets/Net-Trust" 
+#storage_account_id ="/subscriptions/5bf88ae2-570b-483c-95d4-018309ae1682/resourceGroups/ZENPEEARGD/providers/Microsoft.Storage/storageAccounts/zenpeeaarmstrd01"
+env ="nonprod"
+# # App Config Vars
+appservice_plan_name                = "ZENPEEAASPS01"
+appservice_plan_resource_group_name = "ZENPEEARGS"
+# appservice_type    = "web"
+
+
+# # Data Vars
+#azuread_administrator_group_name = "Zelis DBA Group"
+tags = {     
+location = "us-east2"
+environment = "stg"
+app-name = "APIM"
+cost-center = ""
+organizational-owner = "PEEA"
+application-owner = "peeateam@zelis.com"
+engineering-owner = "dl-azure_support@zelis.com"
+deployment-date = "09/08/2023"
+data-classification = "internal"
+deployment-method = "IaC"
+iac-repo-id = ""
+latest-release-version = ""
+backup-policy = ""
+end-of-life = ""
+operating-system = ""
+project-id = ""
+shutdown-schedule = "None"
+    }
+
+db_enabled = "true"
+
+shared_key_vault_name = "ZENINFKVP01"
+shared_key_vault_resource_group_name = "ZENINFKV"
+wildcard_cert_name = "ExternalAppSvcZelisWC"
+zone_name = "zelis.com"
+application_name = "zenapimdpfas01"
+record_type = "CNAME"
+cert_enabled = "false"
