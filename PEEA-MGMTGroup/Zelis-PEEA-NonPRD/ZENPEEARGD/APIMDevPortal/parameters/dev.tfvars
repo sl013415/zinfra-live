@@ -1,0 +1,50 @@
+# Naming and Tagging Vars
+location         = "eastus2"
+resource_group_name = "ZENPEEARGD"
+custom_domain_verification_id = "thankful-tree-001c4940f.3.azurestaticapps.net"
+subnet_name = "PaaSApp-Integration-Net-Dev-Static"
+virtual_network_name ="zenpevnnetd01"
+virtual_network_resource_group_name = "zenpergnetd01"
+subnet_id = "/subscriptions/5bf88ae2-570b-483c-95d4-018309ae1682/resourceGroups/zenpergnetd01/providers/Microsoft.Network/virtualNetworks/zenpevnnetd01/subnets/PaaSApp-Integration-Net-Dev"
+lz_subnet_id ="/subscriptions/3a07ea8c-0ac8-43d6-a21e-ed467d8ef56b/resourceGroups/zenlzrgnetp01/providers/Microsoft.Network/virtualNetworks/zenlzvnnetp01/subnets/Net-Trust"
+lz_DR_subnet_id = "/subscriptions/3a07ea8c-0ac8-43d6-a21e-ed467d8ef56b/resourceGroups/zenlzrgnetdr01/providers/Microsoft.Network/virtualNetworks/zenlzvnnetdr01/subnets/Net-Trust" 
+#storage_account_id ="/subscriptions/5bf88ae2-570b-483c-95d4-018309ae1682/resourceGroups/ZENPEEARGD/providers/Microsoft.Storage/storageAccounts/zenpeeaarmstrd01"
+env ="nonprod"
+workspace_id ="/subscriptions/5bf88ae2-570b-483c-95d4-018309ae1682/resourceGroups/zenpeeargd/providers/Microsoft.OperationalInsights/workspaces/zenpeealawsd01"
+# # App Config Vars
+appservice_plan_name                = "ZENPEEAASPD01"
+appservice_plan_resource_group_name = "ZENPEEARGD"
+# appservice_type    = "web"
+
+
+# # Data Vars
+#azuread_administrator_group_name = "Zelis DBA Group"
+tags = {     
+location = "us-east2"
+environment = "dev"
+app-name = "APIM"
+cost-center = ""
+organizational-owner = "PEEA"
+application-owner = "peeateam@zelis.com"
+engineering-owner = "dl-azure_support@zelis.com"
+deployment-date = "08/31/2023"
+data-classification = "internal"
+deployment-method = "IaC"
+iac-repo-id = ""
+latest-release-version = ""
+backup-policy = ""
+end-of-life = ""
+operating-system = ""
+project-id = ""
+shutdown-schedule = "None"
+    }
+
+db_enabled = "true"
+
+shared_key_vault_name = "ZENINFKVP01"
+shared_key_vault_resource_group_name = "ZENINFKV"
+wildcard_cert_name = "ExternalAppSvcZelisWC"
+zone_name = "zelis.com"
+application_name = "zenapimdpfad01"
+record_type = "CNAME"
+cert_enabled = "false"

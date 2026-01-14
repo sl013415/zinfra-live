@@ -1,0 +1,22 @@
+# Naming and Tagging Vars
+location         = "eastus2"
+resource_group_name = "ZENPEEARGD"
+tags = {     
+location = "us-east2"
+environment = "dev"
+app-name = ""
+cost-center = ""
+organizational-owner = "PEEA"
+application-owner = "peeateam@zelis.com"
+engineering-owner = "dl-azure_support@zelis.com"
+deployment-date = "06/20/2023"
+data-classification = "internal"
+deployment-method = "IaC"
+iac-repo-id = ""
+latest-release-version = ""
+backup-policy = ""
+end-of-life = ""
+operating-system = ""
+project-id = ""
+shutdown-schedule = "None"
+    }

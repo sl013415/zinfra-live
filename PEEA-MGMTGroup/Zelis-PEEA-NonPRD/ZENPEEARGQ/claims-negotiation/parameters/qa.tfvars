@@ -1,0 +1,48 @@
+# Naming and Tagging Vars
+location         = "eastus2"
+resource_group_name = "ZENPEEARGQ"
+custom_domain_verification_id = "zencneafaq01.azurewebsites.net"
+subnet_name = "PaaSApp-Integration-Net-QA-Static"
+virtual_network_name ="zenpevnnetd01"
+virtual_network_resource_group_name = "zenpergnetd01"
+subnet_id = "/subscriptions/5bf88ae2-570b-483c-95d4-018309ae1682/resourceGroups/zenpergnetd01/providers/Microsoft.Network/virtualNetworks/zenpevnnetd01/subnets/PaaSApp-Integration-Net-QA"
+lz_subnet_id ="/subscriptions/3a07ea8c-0ac8-43d6-a21e-ed467d8ef56b/resourceGroups/zenlzrgnetp01/providers/Microsoft.Network/virtualNetworks/zenlzvnnetp01/subnets/Net-Trust"
+lz_DR_subnet_id = "/subscriptions/3a07ea8c-0ac8-43d6-a21e-ed467d8ef56b/resourceGroups/zenlzrgnetdr01/providers/Microsoft.Network/virtualNetworks/zenlzvnnetdr01/subnets/Net-Trust" 
+env ="nonprod"
+workspace_id ="/subscriptions/5bf88ae2-570b-483c-95d4-018309ae1682/resourceGroups/zenpeeargd/providers/Microsoft.OperationalInsights/workspaces/zenpeealawsq01"
+# # App Config Vars
+appservice_plan_name                = "ZENPEEAASPQ01"
+appservice_plan_resource_group_name = "ZENPEEARGQ"
+tags = {     
+location = "us-east2"
+environment = "nonprod"
+app-name = "CLAIMS-NEGOTIATION"
+cost-center = ""
+organizational-owner = "PEEA"
+application-owner = "peeateam@zelis.com"
+engineering-owner = "dl-azure_support@zelis.com"
+deployment-date = "05/08/2024"
+data-classification = "internal"
+deployment-method = "IaC"
+iac-repo-id = ""
+latest-release-version = ""
+backup-policy = ""
+end-of-life = ""
+operating-system = ""
+project-id = ""
+shutdown-schedule = "None"
+    }
+
+db_enabled = "true"
+
+shared_key_vault_name = "ZENINFKVP01"
+shared_key_vault_resource_group_name = "ZENINFKV"
+wildcard_cert_name = "ExternalAppSvcZelisWC"
+zone_name = "zelis.com"
+application_name = "zencneswaq01"
+
+cert_enabled = "false"
+record_type = "CNAME"
+static_webapp_private_service_connection_name = "zencnescq01"
+static_webapp_private_endpoint_name="zencneepsq01"
+static_webapp_subresource_names = ["staticSites"]
