@@ -1,0 +1,22 @@
+# Naming and Tagging Vars
+location         = "eastus2"
+#resource_group_name = "ZPPRGP"
+tags = {     
+location = "us-east2"
+environment = "prd"
+app-name = "ZAPP "
+cost-center = ""
+organizational-owner = "PMT"
+application-owner = "it-operations@zelispayments.com"
+engineering-owner = "dl-azure_support@zelis.com"
+deployment-date = "07/03/2023"
+data-classification = "internal"
+deployment-method = "IaC"
+iac-repo-id = ""
+latest-release-version = ""
+backup-policy = ""
+end-of-life = ""
+operating-system = ""
+project-id = ""
+shutdown-schedule = "None"
+    }
